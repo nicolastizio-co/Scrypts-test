@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){const e=document.querySelector(".year"),t=(new Date).getFullYear();e.textContent=t}));
