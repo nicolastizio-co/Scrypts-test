@@ -1,1 +1,1 @@
-XXXXXXXX
+"use strict"; document.querySelectorAll("[utm]").forEach((t => { const e = t.getAttribute("utm"), o = new URLSearchParams(window.location.search); let c; c = e ? o.get(e) : window.location.href, null !== c && (t.value = c) }));
